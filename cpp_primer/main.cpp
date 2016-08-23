@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include "chapter3.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[])
+{
+    chapter3 chpt3;
+    chpt3.ex_3_35();
     return 0;
 }
