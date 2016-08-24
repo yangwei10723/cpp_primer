@@ -8,6 +8,7 @@
 
 #include "chapter6.hpp"
 #include <iostream>
+#include <string>
 
 void chapter6::calc_fact()
 {
@@ -51,4 +52,28 @@ void chapter6::call_ex_6_05()
         chapter6 chpt6;
         chpt6.ex_6_05(i2);
     }
+}
+
+
+bool chapter6::ex_6_17a(const std::string  &s)
+{
+    for (auto c : s)
+    {
+        if (isupper(c))
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+std::string chapter6::ex_6_17b(const std::string &s)
+{
+    std::string s2 = s;
+    for (auto &c : s2)
+    {
+        c = toupper(c);
+    }
+    
+    return s2;
 }
