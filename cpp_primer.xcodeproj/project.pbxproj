@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		446F01541D6C875A0045E0B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 446F01531D6C875A0045E0B6 /* main.cpp */; };
 		446F01601D6C8E190045E0B6 /* chapter3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 446F015E1D6C8E190045E0B6 /* chapter3.cpp */; };
+		DAD0D32E1D6D92D000D0B9AE /* chapter6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD0D32C1D6D92D000D0B9AE /* chapter6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		446F01531D6C875A0045E0B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		446F015E1D6C8E190045E0B6 /* chapter3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chapter3.cpp; sourceTree = "<group>"; };
 		446F015F1D6C8E190045E0B6 /* chapter3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chapter3.hpp; sourceTree = "<group>"; };
+		DAD0D32C1D6D92D000D0B9AE /* chapter6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chapter6.cpp; sourceTree = "<group>"; };
+		DAD0D32D1D6D92D000D0B9AE /* chapter6.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chapter6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				446F01531D6C875A0045E0B6 /* main.cpp */,
 				446F015E1D6C8E190045E0B6 /* chapter3.cpp */,
 				446F015F1D6C8E190045E0B6 /* chapter3.hpp */,
+				DAD0D32C1D6D92D000D0B9AE /* chapter6.cpp */,
+				DAD0D32D1D6D92D000D0B9AE /* chapter6.hpp */,
 			);
 			path = cpp_primer;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				446F01541D6C875A0045E0B6 /* main.cpp in Sources */,
+				DAD0D32E1D6D92D000D0B9AE /* chapter6.cpp in Sources */,
 				446F01601D6C8E190045E0B6 /* chapter3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +251,7 @@
 				446F01591D6C875A0045E0B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
